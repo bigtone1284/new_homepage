@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Thesaurus",
+    "url": "https://react-thesaurus.herokuapp.com",
+    "img": "thesaurus.png",
+    "description": "Thesaurus web-app using Node.js and React.js",
+    "technologiesArr": [{
+      "name": "React.js",
+      "img": "http://formatjs.io/img/react.svg"
+    },
+    {
+      "name": "Node.js",
+      "img": "https://strongloop.com/wp-content/uploads/2015/12/nodejs-logo.png"
+    },
+    {
+      "name": "Express.js",
+      "img": "http://nodejs-cloud.com/img/128px/expressjs.png"
+    }]
+  },
+  {
+    "name": "TicBackBone",
+    "url": "https://ticbackbone.herokuapp.com",
+    "img": "tic_tac_toe.png",
+    "description": "Tic-Tac-Toe web-app, proof of concept.",
+    "technologiesArr": [{
+      "name": "Backbone.js",
+      "img": "http://2.bp.blogspot.com/-xdZxDAStMTc/UQRY8nCnmuI/AAAAAAAAW98/sqp4pXNrlE8/s1600/Backbone_logo_logo_only.png"
+    },
+    {
+      "name": "Node.js",
+      "img": "https://strongloop.com/wp-content/uploads/2015/12/nodejs-logo.png"
+    },
+    {
+      "name": "Express.js",
+      "img": "http://nodejs-cloud.com/img/128px/expressjs.png"
+    },
+    {
+      "name": "Webpack",
+      "img": "http://dm.gl/assets/webpackLogo.png"
+    }]
+  },
+  {
+    "name": "Keycode",
+    "url": "/work/keycode",
+    "img": "keycode.png",
+    "description": "Dev Tool for quick keyboard keycodes.",
+    "technologiesArr": [{
+      "name": "HTML5",
+      "img": "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
+    },
+    {
+      "name": "CSS3",
+      "img": "http://www.mixed-up.com/markb/about/visual/CSS3_Logo.svg"
+    },
+    {
+      "name": "JavaScript",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    }]
+  },
+  {
+    "name": "Hue View",
+    "url": "http://localhost:8080/work/hueview",
+    "img": "hueview.png",
+    "description": "Game to test your ability to discern colors.",
+    "technologiesArr": [{
+      "name": "HTML5",
+      "img": "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
+    },
+    {
+      "name": "CSS3",
+      "img": "http://www.mixed-up.com/markb/about/visual/CSS3_Logo.svg"
+    },
+    {
+      "name": "JavaScript",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    }]
+  },
+  {
+    "name": "Cine Poster",
+    "url": "https://cineposter.herokuapp.com/#/",
+    "img": "cineposter.png",
+    "description": "App to view Movie Info for current movies.",
+    "technologiesArr": [{
+      "name": "Angular.js",
+      "img": "https://s3.amazonaws.com/media-p.slid.es/uploads/hugojosefson/images/86267/angularjs-logo.png"
+    },
+    {
+      "name": "Node.js",
+      "img": "https://strongloop.com/wp-content/uploads/2015/12/nodejs-logo.png"
+    },
+    {
+      "name": "Express.js",
+      "img": "http://nodejs-cloud.com/img/128px/expressjs.png"
+    }]
+  },
+  {
+    "name": "That Purple",
+    "url": "/work/that_purple",
+    "img": "that_purple.png",
+    "description": "A color picker, but for shades of purple only.",
+    "technologiesArr": [{
+      "name": "HTML5",
+      "img": "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
+    },
+    {
+      "name": "CSS3",
+      "img": "http://www.mixed-up.com/markb/about/visual/CSS3_Logo.svg"
+    },
+    {
+      "name": "JavaScript",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+      "name": "jQuery",
+      "img": "https://avatars0.githubusercontent.com/u/70142?v=3&s=400"
+    }]
+  },
+  {
+    "name": "Colorsense",
+    "url": "/work/colorsense",
+    "img": "colorsense.png",
+    "description": "A color blender, exploring HTML5 input type-color.",
+    "technologiesArr": [{
+      "name": "HTML5",
+      "img": "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
+    },
+    {
+      "name": "CSS3",
+      "img": "http://www.mixed-up.com/markb/about/visual/CSS3_Logo.svg"
+    },
+    {
+      "name": "JavaScript",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    }]
+  },
+  {
+    "name": "Calendar",
+    "url": "/work/calendar",
+    "img": "calendar.png",
+    "description": "A calendar, some styles I like.",
+    "technologiesArr": [{
+      "name": "HTML5",
+      "img": "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
+    },
+    {
+      "name": "CSS3",
+      "img": "http://www.mixed-up.com/markb/about/visual/CSS3_Logo.svg"
+    },
+    {
+      "name": "JavaScript",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    }]
+  },
+  {
+    "name": "Rail Time",
+    "url": "https://rail-time.herokuapp.com/",
+    "img": "railtime.png",
+    "description": "NYC MTA Metro-North Timetable data.",
+    "technologiesArr": [{
+      "name": "Backbone.js",
+      "img": "http://2.bp.blogspot.com/-xdZxDAStMTc/UQRY8nCnmuI/AAAAAAAAW98/sqp4pXNrlE8/s1600/Backbone_logo_logo_only.png"
+    },
+    {
+      "name": "Node.js",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png"
+    }]
+  }
+]

@@ -1,0 +1,273 @@
+#keycode-section {
+  font-family: 'Lato', Arial, sans-serif;
+	background: gainsboro;
+
+  .char {
+    display: block;
+    font-size: 1.5em;
+  }
+
+  .key {
+    border: .2em solid #000;
+    border-radius: 0.3125em;
+    display: table-cell;
+    position: relative;
+    height: 4em;
+    padding: 0.3125em;
+    text-align: center;
+    vertical-align: middle;
+    width: 4em;
+  }
+
+  .keyboard {
+    border-spacing: 0.5em 0.3125em;
+    display: table;
+  }
+
+  .left {
+    text-align: left;
+    vertical-align: bottom;
+  }
+
+  .right {
+    text-align: right;
+    vertical-align: bottom;
+  }
+
+  .nonchar {
+    font-size: 1em;
+    vertical-align: bottom;
+  }
+
+  .singleLetter {
+    font-size: 2em;
+  }
+
+  .space {
+    width: 25em;
+  }
+
+  .delete, .tab {
+    width: 6.6em;
+  }
+
+  .capslock, .return {
+    width: 8em;
+  }
+
+  .shiftkey {
+    width: 10.6em;
+  }
+
+  .fn, .control, .option {
+    width: 3.5em;
+  }
+
+  .command {
+    width: 6.75em;
+  }
+
+  .last .key {
+    height: 4.25em;
+  }
+
+  .key.dpad {
+    border: none;
+    padding: 0;
+    vertical-align: bottom;
+  }
+
+  .dpad span {
+    border: solid .2em #000;
+    display: block;
+    border-radius: 0.3125em;
+    padding: 0.3125em;
+    padding-top: 0.625em;
+    width: 3.75em;
+    height: 50%;
+  }
+
+  .dpad .dpadup {
+    padding-top: 0.25em;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; 
+  }
+
+  .dpad .dpaddown {
+    padding-top: 0.75em;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .key::before {
+    position: absolute;
+    top: 0.3125em;
+    font-size: 0.9em;
+  }
+
+  .capslock::before {
+    content: "\25CF";
+    color: gainsboro;
+  }
+
+  .capslock.on::before {
+    content: "\25CF";
+    color: lawngreen;
+  }
+
+  .return::before {
+    content: "enter";
+  }
+
+  .option::before {
+    content: "alt";
+  }
+
+  .command::before {
+    content: "\2318";
+    font-size: 1.25em;
+    padding: 0.3125em;
+    padding-top: 0;
+  }
+
+  .command.right::before {
+    right: inherit;
+    left: 0;
+  }
+
+  .command.left::before {
+    right:0;
+  }
+
+  .right::before {
+    right: .3125em;
+  }
+
+  .displayGroup {
+    display: inline-block;
+    font-size: 2em;
+    text-align: center;
+    border-radius: .625em;
+    width: 15em;
+    float: right;
+    margin-right: .625em;
+  }
+
+  .displays {
+    margin-left: .3125em;
+    margin-right: .3125em;
+  }
+
+  #keyCodeDisplay {
+    float: right;
+  }
+
+  .displayGroup div {
+    padding: .3125em .625em;
+  }
+
+  .displayElement {
+    font-size: 2.5em;
+    border-bottom-left-radius: .25em;
+    border-bottom-right-radius: .25em;
+  }
+
+  #keyDisplay .singleLetter {
+    font-size: 1em;
+  }
+
+  #keyDisplay .dpadButton {
+    font-size: 0.75em;
+    background: white;
+  }
+
+  #keyDisplay .char  {
+    font-size: 0.5em;
+  }
+
+  #keyDisplay .dpadButton {
+    padding: 0;
+  }
+
+  #back-home {
+    position: fixed;
+    background: #262922;
+    border-radius: .625em;
+    color: #E6E6FA;
+    padding: .625em;
+    top: 1.25em;
+    left: 1.25em;
+    font-size: 1.25em;
+    z-index: 3;
+  }
+
+  #back-home a {
+    color: silver;
+  }
+
+  #back-home a:hover {
+    color: mediumpurple;
+  }
+
+  body {
+    font-size: 16px;
+  }
+  @media (max-width: 1258px) {
+    body { font-size: 14px; }
+  }
+  @media (max-width: 1050px) {
+    body { font-size: 12px; }
+  }
+  @media (max-width: 858px) {
+    body { font-size: 10px; }
+  }
+  @media (max-width: 658px) {
+    body { font-size: 8px; }
+  }
+  @media (max-width: 458px) {
+    body { font-size: 6px; }
+  }
+
+  .keyboard {
+    background: silver;
+    color: mediumpurple;
+    border-radius: 0.3125em;
+  }
+
+  .key, .dpad span {
+    background: #262922;
+    border-color: transparent;
+    -webkit-box-shadow: inset 0 0.125em 0 rgba(255, 255, 255, 0.4), 0 0.125em 0.125em rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: inset 0 0.125em 0 rgba(255, 255, 255, 0.4), 0 0.125em 0.125em rgba(0, 0, 0, 0.4);
+      box-shadow: inset 0 0.125em 0 rgba(255, 255, 255, 0.4), 0 0.125em 0.125em rgba(0, 0, 0, 0.4);
+  }
+
+  .singleLetter {
+    text-transform: lowercase;
+  }
+
+  .key:hover, .dpad span:hover {
+    background: #151515;
+  }
+
+  .keydown, .key:active, .dpad span:active {
+    background: #000;
+  }
+
+  .space {
+    color: #262922;
+  }
+
+  .dpad:hover, .dpad:active {
+    background: #262922;
+    border-color: dimgrey;
+  }
+
+  .displayGroup {
+    background: silver;
+  }
+
+  .displayElement {
+    background: white;
+  }
+}

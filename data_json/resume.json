@@ -1,0 +1,151 @@
+{
+  "name": {
+    "givenName": "Tony",
+    "surname": "DeFreitas"
+  },
+  "contactInfo": [
+    {
+      "type": "email",
+      "href": "mailto:anthony.defreitas@gmail.com",
+      "text": "anthony.defreitas@gmail.com",
+      "fontAwesomeClass": "fa-envelope"
+    },
+    {
+      "type": "phone",
+      "text": "(914) 980-1912",
+      "fontAwesomeClass": "fa-mobile"
+    },
+    {
+      "type": "linkedin",
+      "href": "https://www.linkedin.com/in/tdefreitas",
+      "text": "tdefreitas",
+      "fontAwesomeClass": "fa-linkedin"
+    },
+    {
+      "type": "homepage",
+      "href": "https://bigtone1284.github.io",
+      "text": "https://bigtone1284.github.io",
+      "fontAwesomeClass": "fa-globe"
+    },
+    {
+      "type": "github",
+      "href": "https://www.github.com/bigtone1284",
+      "text": "bigtone1284",
+      "fontAwesomeClass": "fa-github"
+    }
+  ],
+  "experience": [
+    {
+      "companyName": "LinkedIn",
+      "title": "UI Software Engineer",
+      "summary": "Worked on Talent Solutions team, building elegant User Interfaces and RESTful Web Services for LinkedIn Recruiter Platforms.",
+      "spec": [
+        "Implemented User Interfaces and middleware intergrations allowing usings to easily export and Job candidates discovered via LinkedIn Recruiter.",
+        "Added dynamic UI elements, such as range sliders and toggles.",
+        "Supported Internationalization (i18n) and Accessibility (a11y) to allow broad, global access to all LinkedIn users.",
+        "Worked in Ember.js, Backbone.js + Marionette, ES2015, SASS, CSS3, and HTML5."
+      ],
+      "startDate": "Oct 2016",
+      "endDate": "Current",
+      "location": "Sunnyvale, CA"
+    },
+    {
+      "companyName": "NextGen",
+      "title": "Front-End Web Developer",
+      "summary": "Meditouch Platform team member, providing cloud-based Electronic Healthcare Record (EHR) solutions.",
+      "spec": [
+        "Specialized in projects and features related to live updates of the DOM, including client chat, event-driven push notifications, and updating practice dashboard (techniques used include comet-baesd servers and traditional long-polling).",
+        "Developed responive applications for mobile, tablet, and ",
+        "Built innovative User Interfaces using Vanilla JavaScript, React.js, Backbone.js, HTML5, and CSS3 for cloud­based platforms.",
+        "Mentored Junior Developers in topics ranging from code optimization, efficient DOM­manipulation/querying, and best practices"
+      ],
+      "startDate": "Sep 2015",
+      "endDate": "Oct 2016",
+      "location": "San Diego, CA"
+    },
+    {
+      "companyName": "General Assembly",
+      "title": "Web Developer | Instructional Associate",
+      "summary": "Developed tools and lead instruction for Web Development using JavaScript (Backbone.js, Node.js, Express.js) and Ruby (Rails, Sinatra).",
+      "spec": [
+        "Created Web­apps to support student learning, manage assessments, and maintain student records.",
+        "Developed assessments and assignments to gauge student understanding of common design patterns and best practices for JavaScript and Ruby Development.",
+        "Managed and trained Junior Instructors in critical code review, lesson design, and adult education practices."
+      ],
+      "startDate": "Oct 2014",
+      "endDate": "Aug 2015",
+      "location": "New York, NY"
+    },
+    {
+      "companyName": "Meal Allowance",
+      "title": "Junior Web Developer",
+      "summary": "Meal Allowance provides firms with pier­ diem expenditure services and data to reduce business travel costs.",
+      "spec": [
+        "Developed User Interfaces using HTML, CSS, and JavaScript.",
+        "Modeled menu data using MS Excel and Python statistic libraries."
+      ],
+      "startDate": "Sep 2013",
+      "endDate": "Oct 2014",
+      "location": "White Plains, NY"
+    },
+    {
+      "companyName": "Moojuk Academy",
+      "title": "Program Manager - Native English Curriculum",
+      "summary": "Moojuk Academy teaches Korean university students practical English skills and English test preparation.",
+      "spec": [
+        "Developed feedback system and analyzed data using MS Excel Pivot Table and data regression techniques.",
+        "Introduced weekly staff feedback meetings (20 members) to receive regular input."
+      ],
+      "startDate": "Jan 2009",
+      "endDate": "Sep 2013",
+      "location": "Busan, South Korea"
+    }
+  ],
+  "education": [
+    {
+      "name": "Columbia University - Fu Foundation School of Engineering and Applied Science",
+      "degree": "Bachelor of Science (B.S.) - Operations Research",
+      "year": "2007",
+      "relevantCoursework": [
+        {"name": "Intro to Computer Science"},
+        {"name": "Data Structures"},
+        {"name": "Database Design"},
+        {"name": "Human Factors in Design"},
+        {"name": "Mathematical Programming"}
+      ]
+    }
+  ],
+  "skills": {
+    "programmingLanguages": [
+      {"name": "JavaScript"},
+      {"name": "HTML"},
+      {"name": "CSS"},
+      {"name": "Ruby"},
+      {"name": "SQL"},
+      {"name": "Python"},
+      {"name": "Java"},
+      {"name": "Scala"}
+    ],
+    "frameworkLibraries": [
+      {"name": "React.js"},
+      {"name": "Redux.js"},
+      {"name": "jQuery"},
+      {"name": "Backbone.js"},
+      {"name": "Marionette.js"},
+      {"name": "Node.js"},
+      {"name": "NPM"},
+      {"name": "Express.js"},
+      {"name": "Webpack"},
+      {"name": "Ruby-on-Rails"}
+    ],
+    "otherTools": [
+      {"name": "Git"},
+      {"name": "Heroku"},
+      {"name": "PostgresQL"},
+      {"name": "Phantom.js"},
+      {"name": "Casper.js"},
+      {"name": "Mocha"},
+      {"name": "RESTful Web Services"}
+    ]
+  }
+}

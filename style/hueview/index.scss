@@ -1,0 +1,189 @@
+#main {
+	background: #262922;
+	color: #262922;
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 16px;
+	padding: 10px 5px;
+
+	i,
+	i:visited {
+		color: midnightblue;
+		padding: 5px 10px;
+	}
+
+	i:hover {
+		color: mediumseagreen;
+		background: midnightblue;
+		border-radius: 10px;
+		padding: 5px 10px;
+	}
+
+	.game {
+		background: indianred;
+		padding: 5px 10px;
+		display: block;
+		margin-bottom: 10px;
+		border-radius: 10px;
+	}
+
+	#scoreboard {
+		height: 104px;
+		text-align: center;
+	}
+
+	.scoreboardGroup {
+		width: 115px;
+		display: inline-block;
+		color: #fff;
+		border-radius: 10px;
+		box-shadow: 1px 1px 5px 0 #262922;
+	}
+
+	.scoreboardGroup span {
+		display: block;
+		text-align: center;
+		padding: 2px 8px;
+	}
+
+	#timer {
+		float: left;
+	}
+
+	#score {
+		float: right;
+	}
+
+	.scoreboardGroup span.label {
+		font-size: 2em;
+		background: midnightblue;
+		border-radius: 10px 10px 0 0;
+	}
+
+	.scoreboardGroup span.gameData {
+		font-size: 3em;
+		font-weight: bold;
+		background: mediumseagreen;
+		border-radius: 0 0 10px 10px;
+	}
+
+	#gameboard {
+		height: 500px;
+		text-align: center;
+	}
+
+	.gameMessage {
+		padding-top: 50px;
+	}
+
+	.gameButton {
+		color: white;
+		background: mediumseagreen;
+		display: inline-block;
+		border-radius: 10px;
+		box-shadow: 1px 1px 5px 0 #262922;
+		cursor: pointer;
+		padding: 5px 10px;
+		font-size: 4em;
+	}
+
+	.gameButton:hover {
+		box-shadow: 3px 3px 5px 0 #262922;
+	}
+
+	.gameButton:active {
+		box-shadow: 0 0 0 0;
+	}
+
+	.gameText {
+		display: block;
+		font-size: 2em;
+		color: midnightblue;
+		padding: 10px;
+	}
+
+	#score-msg {
+		color: rgb(0,0,90);
+		font-size: 2em;
+	}
+
+	#squares {
+		width: 320px;
+		height: 320px;
+		padding: 5px;
+		background-color: #262922;
+		border-radius: 10px;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 50px;
+		display: table;
+	}
+
+	#squares.hidden {
+		display: none;
+	}
+
+	.square {
+		border: 5px solid white;
+		border-radius: 20px;
+		cursor: pointer;
+		display: inline-block;
+		float: left;
+		box-shadow: 1px 1px 5px 0 #262922;
+	}
+
+	.square:hover {
+		border-color: #A9A9A9;
+	}
+
+	.square:active {
+		border-color: indianred;
+	}
+
+	.square.different:active {
+		border-color: mediumseagreen;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	#backHome {
+		box-shadow: none;
+	}
+
+	#backHome span {
+		font-size: 1.5em;
+	}
+
+	@media (max-width: 600px) {
+		#backHome {
+			float: left;
+		}
+	}
+
+	@media (min-width: 800px) {
+		#squares {
+			width: 500px;
+			height: 500px;
+		}
+
+		#gameboard {
+			height: 600px;
+		}
+
+		.gameButton {
+			font-size: 6em;
+		}
+
+		.gameText {
+			font-size: 3em;
+		}
+		
+		.scoreboardGroup {
+			width: 200px;
+		}
+		#backHome {
+			float: none;
+		}
+	}
+}

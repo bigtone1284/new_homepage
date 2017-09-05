@@ -1,0 +1,126 @@
+#purple-section {
+	margin: 0;
+  padding: 0;
+  height: 1000px;
+  font-family: 'Lato', Arial, sans-serif;
+  overflow: hidden;
+
+  ul {
+    list-style-type: none;
+    position: relative;
+    top: 10%;
+  }
+
+  #container {
+    background: #000;
+    width: 400%;
+    height: 400%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .purple {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    z-index: 0;
+  }
+
+  .purple:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  #modal {
+    background: white;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    margin-left: -150px;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    text-align: right;
+    z-index: -1;
+    border-radius: 10px;
+    border: 5px solid darkseagreen;
+  }
+
+  #modal.visible {
+    opacity: 1;
+    z-index: 10;
+  }
+
+  .visible div {
+    float: right;
+    width: 1em;
+    margin: .3em;
+    font-size: 2em;
+    border: 5px darkseagreen solid;
+    padding: 1px 4px;
+    border-radius: 1.5em;
+    color: white;
+    text-align: center;
+    transform:rotate(0deg);
+  }
+
+  .visible div:hover {
+    color: darkseagreen;
+    transition: transform 1s ease;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+  }
+
+  .visible li {
+    text-align: left;
+    vertical-align: middle;
+    color: darkseagreen;
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+
+  #filter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+  }
+
+  #filter.haze {
+    background: rgba(0,0,0,0.5);
+    z-index: 5;
+  }
+
+  #back-home {
+    position: fixed;
+    background: #262922;
+    border-radius: 10px;
+    color: #E6E6FA;
+    padding: 10px;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+  }
+
+  i {
+    color: #E6E6FA;
+    padding: 10px;
+  }
+
+  i:hover,
+  i:active {
+    color: #262922;
+    background: #E6E6FA;
+    border-radius: 10px;
+  }
+
+  #close {
+    cursor: pointer;
+  }
+}

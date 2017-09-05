@@ -1,0 +1,28 @@
+[
+  {
+    "medium": "linkedin",
+    "url": "https://www.linkedin.com/in/tdefreitas",
+    "fontAwesomeClass": "fa-linkedin"
+  },
+  {
+    "medium": "github",
+    "url": "https://github.com/bigtone1284",
+    "fontAwesomeClass": "fa-github"
+  },
+  {
+    "medium": "angellist",
+    "url": "https://angel.co/tony-defreitas",
+    "fontAwesomeClass": "fa-angellist"
+  },
+  {
+    "medium": "twitter",
+    "url": "https://twitter.com/bigtone1284",
+    "fontAwesomeClass": "fa-twitter"
+  },
+  {
+    "medium": "email",
+    "url": "mailto:anthony.defreitas@gmail.com",
+    "fontAwesomeClass": "fa-envelope",
+    "email": "true"
+  }
+]

@@ -1,0 +1,191 @@
+#calendar-section {
+    background: rgb(240,240,240);
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+
+  table {
+    border: none;
+    border-collapse: collapse;
+    font-size: 2em;
+    margin: 0 auto;
+  }
+
+  table td { 
+    border-left: 1px solid gainsboro;
+    cursor: pointer;
+    padding: 2px 6px;
+    height: 36px;
+    width: 39px;
+  }
+
+  table td:hover{
+    color: indianred;
+  }
+
+  table td:first-child {
+    border-left: none;
+  }
+
+  th {
+    color: indianred;
+  }
+
+  a {
+    color: indianred;
+    display: inline-block;
+    padding: 0.5em 2em;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  p {
+    color: indianred;
+    font-size: 2em;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 550px) {
+    table td {
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+  }
+  #calendar {
+    border: solid indianred 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    float: left;
+  }
+
+  #month {
+    border-left: solid black 3px;
+  }
+
+  #day {
+    border-right: solid black 3px;
+    background: rgb(240,240,240);
+  }
+
+  #today {
+    background: indianred;
+  }
+
+  #today:hover {
+    color: rgb(240,240,240);
+  }
+
+  #month-header {
+    color: lightgrey;
+    font-size: 2em;
+    padding: 8px;
+  }
+  .monthHeader:hover  {
+    color: #000;
+  }
+
+  #month-header div {
+    display: inline;
+    float: left;
+    height: 100%;
+  }
+
+  #next-month {
+    float: right;
+  }
+
+  #previous-month {
+    float: left;
+  }
+
+  #weekday {
+    background: indianred;
+    color: white;
+    font-size: 2em;
+    padding: 8px;
+  }
+
+  #date {
+    font-size: 15em;
+  }
+
+  #back-home {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    overflow: auto;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    width: 180px;
+  }
+
+  .calendar-section {
+    background-color: rgb(240,240,240);
+    border: 6px solid black;
+    float: left;
+    width: 370px;
+    height: 360px;
+  }
+
+  .monthArrow {
+    cursor: pointer;
+  }
+
+  a {
+    padding: 0;
+  }
+
+  @media (max-width: 1000px) {
+    .calendar-section {
+      display: block;
+      float: none;
+      border: 6px solid black;
+    }
+
+    #month {
+      border-top: 0;
+      border-left: 6px solid black;
+    }
+
+    #day {
+      border-right: 6px solid black;
+    }
+  }
+
+  @media (max-width: 650px) {
+    p {
+      font-size: 1em;
+    }
+
+    #back-home {
+      width: 70px;
+      padding-left: 0;
+      padding-right: 20px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .calendar-section {
+      height: 360px;
+      width: 280px;
+    }
+
+    #calendar {
+      margin-left: -5px;
+      width: 290px;
+      border: 12px solid indianred;
+      border-radius: 12px;
+    }
+
+    table {
+      font-size: 1.5em;
+    }
+  }
+}
